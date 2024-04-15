@@ -1,0 +1,224 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+
+nav ul{
+    
+    list-style: none;
+    gap: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    padding-right: 50px;
+    
+    
+    
+    
+   
+    
+}
+
+a{
+    
+    text-transform: capitalize;
+    color:black;
+    font-size: large;
+    text-decoration: none;
+    
+
+
+
+}
+
+
+
+
+.back::before{ 
+        content: "";
+        position: absolute;
+        background: url('white-house-illustration-flat-design/5006718.jpg') no-repeat center center/cover;
+        height: 642px;
+        top:0px;
+        left:0px;
+        width: 100%;
+        z-index: -1;
+        opacity:0.89;
+    }
+
+ul li a:hover{
+    
+    border-radius: 13px;
+    
+    color: black;
+}
+
+
+
+
+
+
+
+
+/* fill form */
+
+
+
+
+
+footer{
+  position: absolute;
+  content: ;
+  
+
+  width: 100%;
+  height: 100px;
+  right:0px;
+  left:0px;
+  
+  width: 100%;
+  z-index: -1;
+  opacity:0.89;
+
+  background-image: url('white-house-illustration-flat-design/5006718.jpg');
+}
+
+
+.policy{display: flex;
+  justify-content: center;
+
+  font-weight: 500;
+  margin-top: 30px;
+  
+
+}
+
+.disclaimer{
+  text-transform: capitalize;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+
+  
+}
+
+
+svg{
+  display: inline;
+  margin-top: 50px;
+  height: 25px;
+  width: 25px;
+  padding-left: 10px;
+  
+
+ 
+}
+
+.bi-instagram{
+  color: rgb(15, 15, 15);
+
+}
+
+
+
+
+#attend{
+  padding-left: 750px;
+
+}
+
+
+
+
+table {
+
+    height: 100px;
+    
+
+   
+   
+    
+    width: 150%;
+    border-collapse: collapse;
+  }
+
+  th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+  }
+
+  th {
+    background-color: #f2f2f2;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+
+
+.container img{
+    width: 700px;
+    height: 700px;
+}
+
+
+.container{
+    padding-left: 30px;
+    margin-top: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+
+
+
+
+
+
+
+.search {
+    display: inline-block;
+    position: relative;
+    
+  }
+  
+  .search input[type="text"] {
+    text-transform: capitalize;
+    width: 200px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .search button[type="submit"] {
+    background-color: #4e99e9;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition: .9s ease;
+  }
+  
+  .search button[type="submit"]:hover {
+    transform: scale(1.1);
+    color: rgb(255, 255, 255);
+    background-color: blue;
+  }
+
+
+
+/* social media*/
+
+

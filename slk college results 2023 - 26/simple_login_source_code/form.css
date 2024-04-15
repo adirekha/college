@@ -1,0 +1,28 @@
+th{
+    text-transform: capitalize;
+}
+tr{
+    text-transform: capitalize;
+}
+
+td{
+    text-align: center;
+    text-transform: capitalize;
+}
+
+#head{
+   
+    color: red;
+    font-weight: 600px;
+}
+
+
+.container{
+    display: flex;
+    margin-top: 100px;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+}
